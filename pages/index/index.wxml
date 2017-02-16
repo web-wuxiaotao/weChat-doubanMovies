@@ -1,0 +1,32 @@
+<view class="bangdan">
+    <view class="in_theaters">
+        <navigator url="/pages/page/page?id=in_theaters">
+            正在热映
+        </navigator>
+    </view>
+    <view class="coming_soon">
+        <navigator url="/pages/page/page?id=coming_soon">
+            即将上映
+        </navigator>
+    </view>
+    <view class="top250">
+        <navigator url="/pages/page/page?id=top250">
+            TOP250
+        </navigator>
+    </view>
+    <view class="weekly">
+        <navigator url="/pages/page/page?id=weekly">
+            口碑榜
+        </navigator>
+    </view>
+    <view class="new_movies">
+        <navigator url="/pages/page/page?id=new_movies">
+            新片榜
+        </navigator>
+    </view>
+    <view class="us_box">
+        <navigator url="/pages/page/page?id=us_box">
+            北美票房榜
+        </navigator>
+    </view>
+</view>

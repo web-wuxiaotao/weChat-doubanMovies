@@ -1,0 +1,51 @@
+<view class="movie">
+    <view class="image"><image src="{{datas.images.large}}"></image></view>
+    <view class="title">{{datas.title}}</view>
+    <view class="con">
+        <view class="directors view">
+            <text class="text">导演：</text>
+            <view class="name">
+                <text wx:for="{{datas.directors}}">{{item.name}}</text>
+            </view>
+        </view>
+        <view class="casts view">
+            <text class="text">主演：</text>
+            <view class="cast">
+                <text wx:for="{{datas.casts}}">{{item.name}}</text>
+            </view>
+        </view>
+        <view class="year view">
+            <text class="text">年份：</text>
+            <view>
+                <text>{{datas.year}}</text>
+            </view>
+        </view>
+        <view class="genres view">
+            <text class="text">类型：</text>
+            <view class="genre">
+                <text wx:for="{{datas.genres}}">{{item}}</text>
+            </view>
+        </view>
+        <view class="rating view">
+            <text class="text">评分：</text>
+            <view class="rat">
+                <text>{{datas.rating.average}}</text>
+            </view>
+        </view>
+    </view>
+
+    <view class="summary">
+        <text>剧情简介：</text>
+        <view>{{datas.summary}}</view>
+    </view>
+</view>
+
+<!--预告片-->
+<view class="comments">
+    <text class="text">
+        {{datas.title}}
+    </text>
+    <view wx:for="{{comments}}">
+
+    </view>
+</view>
