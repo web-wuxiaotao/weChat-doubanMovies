@@ -18,5 +18,5 @@
   * 在榜单中 口碑榜、新片榜、北美票房榜因为豆瓣提供的api有问题，所以没有数据
   * 影片详情处对影评的获取因为api的问题也没有成功
   
-![Aaron Swartz](https://github.com/younghz/Markdown/raw/master/Res/Aaron_Swartz.jpg)
+![Aaron Swartz](https://raw.githubusercontent.com/web-wuxiaotao/weChat-doubanMovies/master/img/1487233429(1).png)
   
